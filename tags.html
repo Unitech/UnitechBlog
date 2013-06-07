@@ -1,0 +1,17 @@
+---
+layout: page
+title: Tags
+header: Posts By Tag
+---
+
+<h1>Articles by tag</h1>
+
+<ul class="nav nav-list" style="width : 400px;">
+	{% for tag in site.tags %} 
+	<li class="nav-header" id="{{ tag[0] }}-ref">{{ tag[0] | capitalize }}</li>
+  
+    {% assign pages_list = tag[1] %}  
+    {% include JB/tags_page_list %}
+  
+{% endfor %}
+</ul>

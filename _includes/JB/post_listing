@@ -1,0 +1,15 @@
+
+  {% for post in site.posts%}
+  <section class="unit-article" >
+<a class="anchor" id="{{post.title | replace: ' ', '_'}}" href="{{ BASE_PATH }}{{ post.url }}">&nbsp;</a>
+  	<h1>
+
+        <a >{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h1>
+
+  	{{ post.content  }}
+  	<hr/>
+  </section>
+  {% endfor %}
+
+
+

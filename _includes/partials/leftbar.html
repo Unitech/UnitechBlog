@@ -1,0 +1,17 @@
+
+
+<h3>Posts</h3>
+
+<ul class="nav nav-list bs-docs-sidenav">
+  {% for post in site.posts%}
+  <li><a href="#{{post.title | replace: ' ', '_'}}">{{post.title}}</a></li>
+  {% endfor %}
+</ul>
+
+<h3>Categories</h3>
+{% assign categories_list = site.categories %}
+  {% include JB/categories_list %}
+
+<h3>Tags</h3>
+  {% assign tags_list = site.tags %}
+  {% include JB/tags_list %}

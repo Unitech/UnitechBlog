@@ -1,0 +1,225 @@
+/* Override some defaults */
+
+h1 {
+	font-size : 24.5px;
+}
+
+h2 {
+	font-size : 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	line-height : 23px;
+}
+
+h1 small {
+	font-size : 14px;
+	font-style: italic;
+}
+html, body {
+  background-color: #eee;
+}
+.navbar {
+  margin-bottom: 0;
+}
+
+.main-ctn {
+
+}
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+footer {
+  font-size : 10px;
+  float : left;
+}
+.affix {
+
+}
+
+pre {
+  background:none;
+  border:none;
+  bottom:auto;
+  clear:none;
+  cursor:default;
+  /* didn't really know what the default for display should be*/
+  /*display:inline;*/
+  float:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:medium;
+  font-style:normal;
+  font-weight:normal;
+  height:auto;
+  left:auto;
+  letter-spacing:normal;
+  line-height:normal;
+  max-height:none;
+  max-width:none;
+  min-height:0;
+  min-width:0;
+  overflow:visible;
+  position:static;
+  right:auto;
+  text-align:left;
+  text-decoration:none;
+  text-indent:0;
+  text-transform:none;
+  top:auto;
+  visibility:visible;
+  white-space:normal;
+  width:auto;
+  z-index:auto;
+}
+
+code {
+  border : 1px solid #eee !important;
+}
+
+.sidebar {
+  
+}
+section {
+
+}
+.display-content {
+	min-height : 400px;
+	padding : 5px 20px 20px 20px;
+        margin-top : 50px;
+	background-color: white;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-border-radius: 5px;          
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* The white background content wrapper */
+.content {
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  
+}
+
+.anchor {
+    position:relative;
+    top:-40px;
+}
+ 
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 10px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+
+/* tag_box ======================================================== */
+
+
+.bs-docs-sidenav {
+  width: inherit;
+
+  padding: 0;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.bs-docs-sidenav > li > a {
+  display: block;
+  width: 190px \9;
+  margin: 0 0 -1px;
+  padding: 8px 14px;
+  border: 1px solid #e5e5e5;
+}
+.bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+  position: relative;
+  z-index: 2;
+  padding: 9px 15px;
+  border: 0;
+  text-shadow: 0 1px 0 rgba(0,0,0,.15);
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+}
+/* Chevrons */
+.bs-docs-sidenav .icon-chevron-right {
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+.bs-docs-sidenav > li > a:hover {
+  background-color: #f5f5f5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+  opacity: .5;
+}
+.bs-docs-sidenav .active .icon-chevron-right,
+.bs-docs-sidenav .active a:hover .icon-chevron-right {
+  background-image: url(../img/glyphicons-halflings-white.png);
+  opacity: 1;
+}
+.bs-docs-sidenav.affix {
+  top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+  position: absolute;
+  top: auto;
+  bottom: 270px;
+}
+
+
+.menu-parent {
+    width : 270px;
+}
+
+.menu-left {
+    margin-top : 60px;
+    background-color: #fff;
+    padding : 2px 15px 10px 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;   
+}
+
+.menu-right {
+    position : fixed;
+    margin-top : 60px;
+    background-color: #fff;
+    padding : 2px 15px 10px 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;   
+}

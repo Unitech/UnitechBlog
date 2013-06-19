@@ -66,7 +66,7 @@ footer {
   float : left;
 }
 .affix {
-	top : 60px;
+
 }
 
 pre {
@@ -107,23 +107,17 @@ pre {
 code {
   border : 1px solid #eee !important;
 }
-.menu-right {
-	
-	background-color: #fff;
-	padding : 2px 15px 10px 15px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;   
-}
+
 .sidebar {
   
 }
 section {
-	padding-top : 50px;
+
 }
 .display-content {
 	min-height : 400px;
 	padding : 5px 20px 20px 20px;
+        margin-top : 50px;
 	background-color: white;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -140,6 +134,11 @@ section {
   
 }
 
+.anchor {
+    position:relative;
+    top:-40px;
+}
+ 
 /* Page header tweaks */
 .page-header {
   background-color: #f5f5f5;
@@ -222,6 +221,29 @@ section {
 }
 
 
+.menu-parent {
+    width : 270px;
+}
+
+.menu-left {
+    margin-top : 60px;
+    background-color: #fff;
+    padding : 2px 15px 10px 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;   
+}
+
+.menu-right {
+    position : fixed;
+    margin-top : 60px;
+    background-color: #fff;
+    padding : 2px 15px 10px 15px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;   
+}
+
 a.reposidget {
     color: #4183c4;
     text-decoration: none;
@@ -232,11 +254,11 @@ a.reposidget {
 
 div.reposidget {
     font-family: helvetica, arial, freesans, clean, sans-serif !important;
-    max-width: 400px;
+    max-width: 270px;
     color: #666;
     display: block;
     clear: both;
-    margin: 20px 0;
+    margin: 5px 0;
 
 }
 
@@ -417,6 +439,7 @@ div.reposidget {
     border: 1px solid #2a65a0;
     border-bottom-color: #0770a0;
 }
+
 /*
 
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
